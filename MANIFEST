@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+lib/SQL/QueryBuilder/OO.pm
+t/00.use.t
+META.yml                                 Module meta-data (added by MakeMaker)

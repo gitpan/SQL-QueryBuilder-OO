@@ -1,0 +1,9 @@
+Change log for SQL::QueryBuilder::OO
+$Date: 2014-03-31 15:58:22 +0200 (Mo, 31 Mrz 2014) $
+
+0.1
+	* PHP port completed
+	* Added documentation
+	* Restructured for MakeMaker layout
+
+$Revision: 22 $
