@@ -1,9 +1,12 @@
 Change log for SQL::QueryBuilder::OO
-$Date: 2014-03-31 15:58:22 +0200 (Mo, 31 Mrz 2014) $
+$Date: 2014-04-01 16:06:17 +0200 (Tue, 01 Apr 2014) $
 
-0.1
+0.1.1	2014-04-01 (Tue, 01 Apr 2014)
+	* Removed "use DBI" which broke tests mostly on BSD systems
+
+0.1		2014-03-31 (Mon, 31 Mar 2014)
 	* PHP port completed
 	* Added documentation
 	* Restructured for MakeMaker layout
 
-$Revision: 22 $
+$Revision: 25 $

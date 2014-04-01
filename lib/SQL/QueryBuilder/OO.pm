@@ -3,7 +3,7 @@ package SQL::QueryBuilder::OO;
 use strict;
 use vars qw($VERSION);
 
-$VERSION = '0.1';
+$VERSION = '0.1.1';
 
 =pod
 
@@ -316,7 +316,7 @@ Oliver Schieche E<lt>schiecheo@cpan.orgE<gt>
 
 http://perfect-co.de/
 
-$Id: OO.pm 22 2014-03-31 13:58:22Z schieche $
+$Id: OO.pm 25 2014-04-01 14:06:17Z schieche $
 
 =cut
 ##------------------------------------------------------------------------------
@@ -326,7 +326,6 @@ use strict;
 use warnings;
 use overload '""' => '_getInterpolatedQuery';
 
-use DBI;
 use Data::Dumper; # vital
 use Carp qw(croak);
 use Scalar::Util qw(blessed looks_like_number);
