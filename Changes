@@ -1,5 +1,13 @@
 Change log for SQL::QueryBuilder::OO
-$Date: 2014-04-01 16:06:17 +0200 (Tue, 01 Apr 2014) $
+$Date: 2014-04-03 10:27:49 +0200 (Thu, 03 Apr 2014) $
+
+0.1.2	2014-04-03 (Thu, 03 Apr 2014)
+	* replaced DBI's `last_insert_id` with (less portable) `LAST_INSERT_ID()` SQL function call
+	* added missing `_interpolateByName`
+	* added `fetchArray`
+	* fixed bug when fetching named parameters
+	* fixed bug when quoting "select all from table" references (table.*)
+	* chose the lazy way and added man-page as README
 
 0.1.1	2014-04-01 (Tue, 01 Apr 2014)
 	* Removed "use DBI" which broke tests mostly on BSD systems
@@ -9,4 +17,4 @@ $Date: 2014-04-01 16:06:17 +0200 (Tue, 01 Apr 2014) $
 	* Added documentation
 	* Restructured for MakeMaker layout
 
-$Revision: 25 $
+$Revision: 26 $
