@@ -1,9 +1,10 @@
 package SQL::QueryBuilder::OO;
 
+use 5.010;
 use strict;
 use vars qw($VERSION);
 
-$VERSION = '0.1.2';
+$VERSION = '0.2.0';
 
 =pod
 
@@ -316,7 +317,7 @@ Oliver Schieche E<lt>schiecheo@cpan.orgE<gt>
 
 http://perfect-co.de/
 
-$Id: OO.pm 26 2014-04-03 08:27:49Z schieche $
+$Id: OO.pm 27 2014-04-07 10:54:25Z schieche $
 
 =cut
 ##------------------------------------------------------------------------------

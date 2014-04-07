@@ -1,5 +1,9 @@
 Change log for SQL::QueryBuilder::OO
-$Date: 2014-04-03 10:27:49 +0200 (Thu, 03 Apr 2014) $
+$Date: 2014-04-07 12:54:25 +0200 (Mon, 07 Apr 2014) $
+
+0.2.0	2014-04-07 (Mon, 07 Apr 2014)
+	* removed another build-breaker (added "use version" statement [http://www.cpantesters.org/cpan/report/bfc9639c-bbe9-11e3-bf29-e1298806f0e4])
+	* changed version number to suppress ("lower version number" warning in PAUSE)
 
 0.1.2	2014-04-03 (Thu, 03 Apr 2014)
 	* replaced DBI's `last_insert_id` with (less portable) `LAST_INSERT_ID()` SQL function call
@@ -17,4 +21,4 @@ $Date: 2014-04-03 10:27:49 +0200 (Thu, 03 Apr 2014) $
 	* Added documentation
 	* Restructured for MakeMaker layout
 
-$Revision: 26 $
+$Revision: 27 $
